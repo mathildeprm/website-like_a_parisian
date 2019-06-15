@@ -86,7 +86,7 @@ font-family: 'Caveat', cursive;
   }
 
   #home-button {
-    margin-left: 200px;
+    margin-left: 150px;
     border-radius:4px;
     border:1px solid navy;
     margin-right: 20px;
@@ -101,6 +101,17 @@ font-family: 'Caveat', cursive;
   left:0;
   right:0;
   bottom:60%;
+  color:white;
+  text-shadow: 0 0 5px  rgb(14, 57, 14);
+  font-size:200%;
+  font-style:italic;
+}
+
+.day-name-middle {
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:12%;
   color:white;
   text-shadow: 0 0 5px  rgb(14, 57, 14);
   font-size:200%;
