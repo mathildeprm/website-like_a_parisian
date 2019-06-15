@@ -148,6 +148,10 @@ ul.navbar-nav > li {
   justify-content: space-around;
 }
 
-#day2-activity1 {
+.activity {
   padding: 20px 5%; 
+}
+
+.event-banner {
+  align-content: center;
 }
