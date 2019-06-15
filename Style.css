@@ -177,3 +177,8 @@ div.banner .navbar-nav li.active .nav-link {
 .activity-description {
   font-size:20px;
 }
+
+.footer-copyright {
+  background-color: black;
+  color: white;
+}
