@@ -136,3 +136,9 @@ ul.navbar-nav > li {
   margin-left: 100px;
   margin-right: 100px;
 }
+
+.navbar-light div.banner .navbar-nav .nav-link {
+  font-family: Bebas;
+  color: #265060;
+  font-size: 32px;
+}
