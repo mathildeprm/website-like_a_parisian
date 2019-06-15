@@ -87,6 +87,9 @@ font-family: 'Caveat', cursive;
 
   #home-button {
     margin-left: 200px;
+    border-radius:4px;
+    border:1px solid navy;
+    margin-right: 20px;
   }
 
   .day-area {
@@ -97,9 +100,21 @@ font-family: 'Caveat', cursive;
   position:absolute;
   left:0;
   right:0;
-  bottom:10%;
+  bottom:60%;
   color:white;
-  text-shadow: 0 0 3px black;
+  text-shadow: 0 0 5px  rgb(14, 57, 14);
   font-size:200%;
   font-style:italic;
 }
+
+.blog-description {
+  font-weight: 200;
+  color: rgb(14, 57, 14);
+  height: 200px;
+  top:0;
+  bottom:0;
+}
+
+ul.navbar-nav > li {
+  margin-right: 25px;
+} 
