@@ -13,9 +13,6 @@ body {
   background-color : #ffffff;
 }
 
-h1, h2, h3 {
-font-family: 'Caveat', cursive;
-}
 
   .header {
       background:url(Paris2.jpg) no-repeat center center;
@@ -25,11 +22,12 @@ font-family: 'Caveat', cursive;
       margin-bottom: 2%;
   }
 
-  .Homepage-title {
+  .homepage-title {
     font: italic;
     margin-left: 10px;
     display:inline-block;
     text-shadow: 0 0 8px black;
+    font-family: 'Caveat', cursive;
   }
 
   .header .container {
@@ -129,3 +127,4 @@ font-family: 'Caveat', cursive;
 ul.navbar-nav > li {
   margin-right: 25px;
 } 
+
