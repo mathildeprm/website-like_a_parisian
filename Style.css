@@ -191,7 +191,8 @@ a.anchor {
   visibility: hidden;
 }
 
-/* color: #fbf5f;
-   font-family: Bebas;
-   font-size: 18px;
-   */
+.banner2 {
+  color: #fbf5f;
+  font-family: Bebas;
+  font-size: 24px;
+}
