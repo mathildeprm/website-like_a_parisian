@@ -10,8 +10,13 @@ html, body {
 }*/
 
 body {
-  background-color : #ffffff
+  background-color : #ffffff;
 }
+
+h1, h2, h3 {
+font-family: 'Caveat', cursive;
+}
+
   .header {
       background:url(Paris2.jpg) no-repeat center center;
       background-size: cover;
@@ -37,7 +42,6 @@ body {
       font-size: 120px;
       margin-top: 0;
       margin-bottom: 80px;
-      font-family: 'Josefin Sans', sans-serif;
   }
 
   .header h2 {
@@ -46,16 +50,15 @@ body {
     font-size: 90px;
     margin-top: 0;
     margin-bottom: 80px;
-    font-family: 'Caveat', cursive;
   }
 
   .main {
       background-color:#cbcbcbff; 
       padding: 40px;
       display: grid;
-  max-width: 600px;
-  position: relative;
-  grid-template: 2fr/ 3fr 2fr;
+      max-width: 600px;
+      position: relative;
+      grid-template: 2fr/ 3fr 2fr;
   }
   .main .container{ 
     height: 80px; 
@@ -86,3 +89,17 @@ body {
     margin-left: 200px;
   }
 
+  .day-area {
+    position:relative;
+  }
+
+.day-name {
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:10%;
+  color:white;
+  text-shadow: 0 0 3px black;
+  font-size:200%;
+  font-style:italic;
+}
