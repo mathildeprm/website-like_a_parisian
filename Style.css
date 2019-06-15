@@ -128,3 +128,11 @@ ul.navbar-nav > li {
   margin-right: 25px;
 } 
 
+.home-spacer {
+  height: 300px;
+}
+
+.blog-description {
+  margin-left: 100px;
+  margin-right: 100px;
+}
