@@ -84,10 +84,11 @@ body {
   }
 
   #home-button {
-    margin-left: 150px;
-    border-radius:15px;
-    border:3px solid #265060;
     margin-right: 20px;
+    margin-left: 100px;
+    border-radius: 15px;
+    border:3px solid #265060;
+    padding-bottom: 0px;
   }
 
   .day-area {
@@ -148,6 +149,13 @@ div.banner .navbar-nav li.active .nav-link {
 
 }
 
+.banner2 {
+  color: #fbf5f;
+  font-family: Bebas;
+  font-size: 24px;
+}
+
+
 .way {
   display:flex;
   flex-direction: row;
@@ -184,15 +192,13 @@ div.banner .navbar-nav li.active .nav-link {
 }
 
 /* la hauteur de la bannière fixe */
-a.anchor {
+.space-for-fixed-banner {
+  margin-top: 112px;
+}
+
+a.anchor-show-below-fixed-banner {
   display: block;
   position: relative;
   top: -112px;
   visibility: hidden;
-}
-
-.banner2 {
-  color: #fbf5f;
-  font-family: Bebas;
-  font-size: 24px;
 }
