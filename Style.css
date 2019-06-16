@@ -163,6 +163,11 @@ div.way {
   align-items: center;
 }
 
+/* vertical alignment requires no lingering maring/padding */
+h5.way {
+  margin: 0px;
+}
+
 .activity {
   padding: 20px 5%; 
 }
@@ -198,6 +203,7 @@ h5.way {
   font-size: 25px;
   font-style: oblique;
   text-align: right;
+  margin-right: 20px;
 }
 
 .activity-description {
