@@ -276,7 +276,7 @@ a.anchor-show-below-fixed-banner {
   min-width: 980px;
   overflow: auto;
   width: 980px;
-  text-emphasis-color: #555;
+  text-emphasis-color: rgb(56, 56, 72);
 }
 
 .story .float-left, .story .float-custom{
@@ -289,7 +289,7 @@ a.anchor-show-below-fixed-banner {
 .float-left {
   float: left;
   margin: 0 0 0 20px;
-  background-color: rgba(194, 215, 232, 0.4);
+  background-color: rgba(230, 230, 234, 0.4);
   text-align: center;
   width:430px;
   padding-top: 50px;
@@ -298,7 +298,7 @@ a.anchor-show-below-fixed-banner {
 .float-custom {
     float: right;
     margin: 0 20px 0 0;
-    background-color: rgba(194, 215, 232, 0.4);
+    background-color: rgba(230, 230, 234, 0.4);
     text-align: center; 
     width: 350px;
     padding-top: 50px;
