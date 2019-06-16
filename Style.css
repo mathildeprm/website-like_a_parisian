@@ -14,86 +14,86 @@ body {
 }
 
 
-  .header {
-      background:url(Paris2.jpg) no-repeat center center;
-      background-size: cover;
-      height: 680px;
-      text-align: center;
-      margin-bottom: 2%;
-  }
+.header {
+    background:url(Paris2.jpg) no-repeat center center;
+    background-size: cover;
+    height: 680px;
+    text-align: center;
+    margin-bottom: 2%;
+}
 
-  .homepage-title {
-    font: italic;
-    margin-left: 10px;
-    display:inline-block;
-    text-shadow: 0 0 8px black;
-    font-family: 'Caveat', cursive;
-  }
+.homepage-title {
+  font: italic;
+  margin-left: 10px;
+  display:inline-block;
+  text-shadow: 0 0 8px black;
+  font-family: 'Caveat', cursive;
+}
 
-  .header .container {
-    position: relative;
-    top: 200px;
-  }
-  .header h1 {
-      color: #fff;
-      line-height: 100px; 
-      font-size: 120px;
-      margin-top: 0;
-      margin-bottom: 80px;
-  }
-
-  .header h2 {
+.header .container {
+  position: relative;
+  top: 200px;
+}
+.header h1 {
     color: #fff;
     line-height: 100px; 
-    font-size: 90px;
+    font-size: 120px;
     margin-top: 0;
     margin-bottom: 80px;
-  }
+}
 
-  .main {
-      background-color:#cbcbcbff; 
-      padding: 40px;
-      display: grid;
-      max-width: 600px;
-      position: relative;
-      grid-template: 2fr/ 3fr 2fr;
-  }
-  .main .container{ 
-    height: 80px; 
-    margin: 80px auto;
-  }
+.header h2 {
+  color: #fff;
+  line-height: 100px; 
+  font-size: 90px;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
 
-  .main .container h2{
-      color: #b20000;
-      font-family:'Josefin Sans', sans-serif;
-      font-size: 40px;
+.main {
+    background-color:#cbcbcbff; 
+    padding: 40px;
+    display: grid;
+    max-width: 600px;
+    position: relative;
+    grid-template: 2fr/ 3fr 2fr;
+}
+.main .container{ 
+  height: 80px; 
+  margin: 80px auto;
+}
 
-  }
+.main .container h2{
+    color: #b20000;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 40px;
 
-  .main .container h3{
-      color:#b20000;
-      font-family: 'Caveat', cursive;
-      font-size: 60px;
-      
-  }
+}
 
-  .main .container p{
-      color: #666666;
-      font-family:'Josefin Sans', sans-serif;
+.main .container h3{
+    color:#b20000;
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    
+}
 
-  }
+.main .container p{
+    color: #666666;
+    font-family:'Josefin Sans', sans-serif;
 
-  #home-button {
-    margin-right: 20px;
-    margin-left: 100px;
-    border-radius: 15px;
-    border:3px solid #265060;
-    padding-bottom: 0px;
-  }
+}
 
-  .day-area {
-    position:relative;
-  }
+#home-button {
+  margin-right: 20px;
+  margin-left: 100px;
+  border-radius: 15px;
+  border:3px solid #265060;
+  padding-bottom: 0px;
+}
+
+.day-area {
+  position:relative;
+}
 
 .day-name {
   position:absolute;
@@ -304,12 +304,11 @@ a.anchor-show-below-fixed-banner {
     padding-top: 50px;
 }
 
-
-
-
-
-    @media (max-width: 950px) { 
-      .float-custom{
-      float: left;
-      margin-left: 17px;
-      }
+/* whst's that for ?
+@media (max-width: 950px) { 
+  .float-custom {
+    float: left;
+    margin-left: 17px;
+  }
+}
+*/
