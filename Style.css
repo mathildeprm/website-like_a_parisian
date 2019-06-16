@@ -146,7 +146,6 @@ ul.navbar-nav > li {
 div.banner .navbar-nav li.active .nav-link {
   text-decoration: underline;
   text-underline-position: under; 
-
 }
 
 .banner2 {
@@ -202,3 +201,42 @@ a.anchor-show-below-fixed-banner {
   top: -112px;
   visibility: hidden;
 }
+
+#music {
+  width:100%;
+}
+
+#day2-walk {
+  background:url(itinerary.jpg) 50% 0 no-repeat fixed;
+  background-size: cover;
+  color: black;
+  height: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.story{
+  margin: 0 auto;
+  min-width: 980px;
+  overflow: auto;
+  width: 980px;
+}
+
+.story .float-left, .story .float-custom{
+  padding: 100px 0 0 0;
+  position: relative;
+  width: 350px;
+
+
+
+  ???
+  #day2-activity4{
+    background: url(iguazu_falls.jpg) 50% 0 no-repeat fixed;
+          background-size: cover;
+          color: black;
+          height: 1000px;
+          margin: 0 auto;
+          overflow: hidden;
+          padding: 0;
+          width: 100%;
