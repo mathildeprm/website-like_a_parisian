@@ -173,6 +173,11 @@ div.way {
 
 .activity-title {
   padding: 25px 10px 25px 50px;
+  font: italic;
+  margin-left: 10px;
+  display:inline-block;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.46);
+  font-family: 'Caveat', cursive;
 }
 
 div.way {
