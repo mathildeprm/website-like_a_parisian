@@ -225,62 +225,44 @@ a.anchor-show-below-fixed-banner {
   width:100%;
 }
 
-/* 112px (banner1) + 52px (banner2) = 164px */
 #day2-walk {
-  padding-top: 0px;
+  padding: 0px;
 }
-#walk-itinerary {
-  background:url(itinerary.jpg) 50% 0 no-repeat fixed;
-  background-position: 0px 164px;
+
+/* 112px is for banner1 */
+div.tab-pane div.step {
+  background-position: 0px 112px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color: black;
   height: 1000px;
   margin: 0 auto;
   padding: 0;
   width: 100%;
+}
+
+#walk-itinerary {
+  background-image: url(itinerary.jpg)
 }
 
 #walk-step1 {
-  background:url(step1.jpg) 50% 0 no-repeat fixed;
-  background-size: cover;
-  color: black;
-  height: 1000px;
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
+  background-image: url(step1.jpg);
 }
 
 #walk-step2 {
-  background:url(step2.jpg) 50% 0 no-repeat fixed;
-  background-size: cover;
-  color: black;
-  height: 1000px;
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
+  background-image: url(step2.jpg);
 }
 
 #walk-step3 {
-  background:url(step3.jpg) 50% 0 no-repeat fixed;
-  background-size: cover;
-  color: black;
-  height: 1000px;
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
+  background-image: url(step3.jpg);
 }
 
 #walk-step4 {
-  background:url(step4.jpg) 50% 0 no-repeat fixed;
-  background-size: cover;
-  color: black;
-  height: 1000px;
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
+  background-image: url(step4.jpg);
 }
 
-.walk-description{
+.walk-description {
   margin: 50px auto;
   min-width: 980px;
   overflow: auto;
@@ -288,7 +270,7 @@ a.anchor-show-below-fixed-banner {
   text-emphasis-color: rgb(56, 56, 72);
 }
 
-.story .float-left, .story .float-custom{
+.story .float-left, .story .float-custom {
   padding: 100px 0 0 0;
   position: relative;
   width: 350px;
@@ -300,11 +282,11 @@ a.anchor-show-below-fixed-banner {
   margin: 0 0 0 20px;
   background-color: rgba(230, 230, 234, 0.4);
   text-align: center;
-  width:430px;
+  width: 430px;
   padding-top: 50px;
 }
 
-.float-custom {
+.float-right {
     float: right;
     margin: 0 20px 0 0;
     background-color: rgba(230, 230, 234, 0.4);
