@@ -220,9 +220,13 @@ a.anchor-show-below-fixed-banner {
   width:100%;
 }
 
+/* 112px (banner1) + 52px (banner2) = 164px */
+#day2-walk {
+  padding-top: 0px;
+}
 #walk-itinerary {
   background:url(itinerary.jpg) 50% 0 no-repeat fixed;
-  background-position: 0px 112px;
+  background-position: 0px 164px;
   background-size: cover;
   color: black;
   height: 1000px;
