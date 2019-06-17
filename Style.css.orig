@@ -286,11 +286,11 @@ div.tab-pane div.step {
   color:#265060;
 }
 
-<<<<<<< .merge_file_uya27W
+<<<<<<< HEAD
 .story .float-left, .story .float-custom, .story .float-intro{
 =======
 .story .float-left, .story .float-custom {
->>>>>>> .merge_file_RC9C8e
+>>>>>>> 0a8df6e852125f8b58ba04ac77a83dbe244477b8
   padding: 100px 0 0 0;
   position: relative;
   width: 350px;
