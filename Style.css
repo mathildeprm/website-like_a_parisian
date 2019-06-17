@@ -221,6 +221,15 @@ a.anchor-show-below-fixed-banner {
   visibility: hidden;
 }
 
+a.anchor-show-below-fixed-banner2 {
+  display: block;
+  position: relative;
+  visibility: hidden;
+  width:100%;
+}
+
+
+
 #music {
   width:100%;
 }
@@ -286,12 +295,23 @@ a.anchor-show-below-fixed-banner {
   overflow: auto;
   width: 980px;
   text-emphasis-color: rgb(56, 56, 72);
+  color:#265060;
 }
 
-.story .float-left, .story .float-custom{
+.story .float-left, .story .float-custom, .story .float-intro{
   padding: 100px 0 0 0;
   position: relative;
   width: 350px;
+  color: black;
+}
+
+
+.float-intro {
+  float: right;
+  margin: 50px 0 0 20px;
+  background-color:  rgba(230, 230, 234, 0.4);
+  text-align: center;
+  width:400px;
 }
 
 
@@ -312,6 +332,12 @@ a.anchor-show-below-fixed-banner {
     width: 350px;
     padding-top: 50px;
 }
+
+.card-text {
+  font-weight: 600;
+  font-size:16px;
+}
+
 
 /* whst's that for ?
 @media (max-width: 950px) { 
